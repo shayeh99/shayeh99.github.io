@@ -1,0 +1,36 @@
+.collapsible {
+    color: white;
+    cursor: pointer;
+    padding: 2%;
+    width: 100%;
+    border: none;
+    text-align: space-evenly;
+    outline: none;
+    font-size: 15px;
+  }
+  
+
+  
+  .content {
+    padding: 0 18px;
+    background-color: #f8f8ff;
+    color: black;
+    border-radius: 20px;
+    height: 40%;
+    width: 60%;
+    padding: 2%;
+    filter: drop-shadow(2 10 .75rem lightgray);
+    display: none;
+    overflow: hidden;
+  }
+
+  .up{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .down{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+  }

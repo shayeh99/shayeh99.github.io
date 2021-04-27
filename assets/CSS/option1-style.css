@@ -1,0 +1,56 @@
+body{
+    background:#a1cf74;
+    margin:0;
+    text-align:center;
+    color: white;
+    font-family: 'Neucha', cursive;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 72px;  
+    font-weight: bold;
+  }
+
+  .choices{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  @keyframes wiggle {
+	0% {
+		transform: rotate(-5deg);
+	}
+	25% {
+		transform: rotate(5deg);
+	}
+	50% {
+		transform: rotate(-5deg);
+	}
+	75% {
+		transform: rotate(5deg);
+	}
+	100% {
+		transform: rotate(-5deg);
+	}
+}
+
+.choices img:hover {
+	animation: wiggle 2s infinite;
+
+}
+
+.baked:hover .hover-text{
+    visibility: visable; 
+}
+
+.steamed:hover .hover-text{
+    visibility: visable; 
+}
+.up{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
